@@ -1,65 +1,65 @@
-// 霸都丶傲天 2019年10月10日 https://github.com/AJLoveChina/birthday
+// https://github.com/AJLoveChina/birthday
 var config = {
-    // 句子的长度可以任意， 你可以写十句话， 二十句话都可以
-    // 每句话尽量不要超过15个字,不然展示效果可能不太好
+    // La longitud de las frases puede ser cualquiera, puedes escribir diez frases o veinte frases
+    // Intenta que cada frase no supere los 15 caracteres, de lo contrario, el efecto de visualización puede no ser muy bueno
     texts: [
-        "送给我",      //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!
-        "心爱的姑娘",  // 同上...
-        "今天是你的生日",
-        "这是我们在一起的",
-        "第三个生日！",
-        "这两年来，我见过你",
-        "奇怪的样子",
-        "可爱的样子",
-        "生气的样子",
-        "都是我喜欢的样子",
-        "对了，礼物收全了吗？",
-        "今年要吃好好的",
-        "喂饱饱的",
-        "然后才有力气干活",
-        "和想我！",
-        "生日快乐~~",
+        "Para mi",       // Aquí, el último coma al final de cada frase debe estar en inglés!! ¡¡Es muy importante!!
+        "Hermosa profesora",   // Lo mismo aquí...
+        "el 8 de diciembre es tu cumpleaños",
+        "y este es el",
+        "El Primer cumpleaños tuyo juntos",
+        "Conozco tus",
+        "expresiones raras",
+        "expresiones tiernas",
+        "sobretodo tus expresiones enojadas",
+        "y con todas me gustas, ",
+        "Por cierto, cuidate muy bien, si?",
+        "Este año tienes que comer bien",
+        "estar panchochita",
+        "y así tener energía para esas clases y tu trabajo",
+        "¡y para que pienses solo en mi :v!",
+        "¡Feliz cumpleaños te amo!",
     ],
     /**
-     * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
-     * "对应上面的文字, 要完全一样" : "图片地址, 可以把图片放在imgs文件夹中"
-     * 例如
-     * "心爱的小可爱": "./imgs/xiaokeai.jpg"
+     * imgs no es obligatorio, pero si decides completarlo, debes seguir el formato a continuación
+     * "Texto correspondiente al anterior, debe ser exactamente igual": "Ruta de la imagen, puedes colocar las imágenes en la carpeta imgs"
+     * Por ejemplo:
+     * "Mi pequeño amorcito": "./imgs/xiaokeai.jpg"
      *
-     * 如果不要图片的话, 直接在每行开头写两个斜杠注释即可, 例如下面的 "今天是你的生日" 的图片就不会展示了:)
-     * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
+     * Si no quieres imágenes, simplemente coloca dos barras de comentarios al inicio de cada línea. Por ejemplo, la imagen de "hoy es tu cumpleaños" no se mostrará:
+     * Tip: Es mejor usar imágenes cuadradas o casi cuadradas para obtener un mejor efecto visual
      */
     imgs: {
-        "送给我": "./imgs/songxinxin.jpeg",
-        "心爱的姑娘": "./imgs/nothing.jpg",
-        "今天是你的生日": "./imgs/shengri.jpeg",
-        "这是我们在一起的": "./imgs/zaiyiqi.png",
-        "第三个生日！": "./imgs/nothing.jpg",
-        "这两年来，我见过你": "./imgs/yangzi.jpeg",
-        "奇怪的样子": "./imgs/nothing.jpg",
-        "可爱的样子": "./imgs/nothing.jpg",
-        "生气的样子": "./imgs/nothing.jpg",
-        "都是我喜欢的样子": "./imgs/nothing.jpg",
-        "对了，礼物收全了吗？": "./imgs/chuo.gif",
-        "今年要吃好好的": "./imgs/chihaodian.jpeg",
-        "喂饱饱的": "./imgs/weibao.jpeg",
-        "然后才有力气干活": "./imgs/nothing.jpg",
-        "和想我！": "./imgs/nothing.jpg",
-        "生日快乐~~": "./imgs/nothing.jpg"
+        "Para mi": "./imgs/nino.png",
+        "Hermosa profesora": "./imgs/gaby.jpeg",
+        "el 8 de diciembre es tu cumpleaños": "./imgs/feliz.jpg",
+        "y este es el": "./imgs/conejo.jpeg",
+        "El Primer cumpleaños tuyo juntos": "./imgs/juntos.jpg",
+        "Conozco tus": "./imgs/cora.jpg",
+        "expresiones raras": "./imgs/raro.jpg",
+        "expresiones tiernas": "./imgs/tierno.png",
+        "sobretodo tus expresiones enojadas": "./imgs/enojado.jpg",
+        "y con todas me gustas, ": "./imgs/stitch.png",
+        "Por cierto, cuidate muy bien, si?": "./imgs/bella.jpg",
+        "Este año tienes que comer bien": "./imgs/comiendo.jpeg",
+        "estar panchochita": "./imgs/lleno.jpg",
+        "y así tener energía para esas clases y tu trabajo": "./imgs/profesora.jpg",
+        "¡y para que pienses solo en mi :v!": "./imgs/yo.jpeg",
+        "¡Feliz cumpleaños te amo!": "./imgs/amo.jpeg"
     },
     
-    // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
+    // Descripción de los botones, estas son las descripciones predeterminadas en inglés, puedes cambiarlas a tu gusto
     desc: {
-        turn_on: "点我开始",
-        play: "上音乐",
-        bannar_coming: "搞点颜色",
-        balloons_flying: "好像还少点东西",
-        cake_fadein: "蛋糕？",
-        light_candle: "蜡烛？",
-        wish_message: "生日快乐～",
-        story: "A MESSAGE FOR YOU"
+        turn_on: "Haz clic para empezar",
+        play: "Pon musiquita",
+        bannar_coming: "Pon algo de color",
+        balloons_flying: "Parece que falta algo",
+        cake_fadein: "Pastelito",
+        light_candle: "¿Velas?",
+        wish_message: "¡Feliz cumpleaños amooooooor!",
+        story: "UN MENSAJE PARA TI"
     },
 
-    // 结束语
-    loveText: '爱你的X先生~'
+    // Mensaje final
+    loveText: 'De tu novio Matari (Ariel jajaja)'
 };
